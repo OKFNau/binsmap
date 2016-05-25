@@ -47,6 +47,11 @@ CREATE TABLE allbins
   CONSTRAINT allbins_pkey PRIMARY KEY (gid)
 );
 
+\echo "West Wimmera"
+INSERT INTO allbins(the_geom, source, name, rub_day, rub_weeks, rub_start, rec_day, rec_weeks, rec_start)
+SELECT the_geom, 'West Wimmera',name, rub_day, rub_weeks, rub_start, rec_day, rec_weeks, rec_start
+FROM west_wimmera;
+
 \echo "Northern Grampians"
 INSERT INTO allbins(the_geom, source, name, rub_day, rub_weeks, rub_start, rec_day, rec_weeks, rec_start)
 SELECT the_geom, 'Northern Grampians',name, rub_day, rub_weeks, rub_start, rec_day, rec_weeks, rec_start

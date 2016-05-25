@@ -47,7 +47,9 @@ var councilinfo = {
     'Alpine': 'http://www.alpineshire.vic.gov.au/Page/Page.aspx?Page_Id=133',
     'Casey': 'http://www.casey.vic.gov.au/environment-waste/waste-recycling/residential-waste/weekly-garbage-service',
     'Melbourne': 'https://www.melbourne.vic.gov.au/ForResidents/WasteRecyclingandNoise/householdgarbage/Pages/Collectiondays.aspx',
-    'Southern Grampians': 'http://www.sthgrampians.vic.gov.au/Page/Page.asp?Page_Id=95&h=1&p=1'
+    'Southern Grampians': 'http://www.sthgrampians.vic.gov.au/Page/Page.asp?Page_Id=95&h=1&p=1',
+    'West Wimmera': 'http://www.westwimmera.vic.gov.au/waste-management'
+
 };
 
 
