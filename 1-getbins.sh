@@ -45,6 +45,6 @@ wget -O melbourne.zip 'https://data.melbourne.vic.gov.au/api/geospatial/dmpt-2xd
 unzip -o -d melbourne melbourne.zip
 #wget -O gold_coast.geojson 'http://data.gov.au/geoserver/waste-and-recycling-collection-services/wfs?request=GetFeature&typeName=1b853228_5bc4_
 
-
+wget -O port-adelaide-enfield.geojson 'https://raw.githubusercontent.com/CloCkWeRX/port-adelaide-enfield-binmap/master/map.geojson'
 cd ..
 
